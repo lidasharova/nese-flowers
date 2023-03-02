@@ -18,7 +18,7 @@
   font-family: Roboto-Light, Verdana, sans-serif;
   @include font(1.8rem, 3.5rem);
   color: $color-text;
-  list-style-image: url('assets/img/service/marker.svg');
+  list-style-image: url('/assets/img/service/marker.svg');
 
   @include media-mobile {
     @include font(1.5rem, 3.5rem);
@@ -36,7 +36,7 @@
 .service__img {
   width: 599px;
   height: 355px;
-  background-image: url('assets/img/service/service.png');
+  background-image: url('/assets/img/service/service.png');
   background-repeat: no-repeat;
   background-size: cover;
   @include media-tablet {
