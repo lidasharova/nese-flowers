@@ -1,0 +1,23 @@
+.menu {
+  width: 451px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 58px;
+  padding: 0;
+  @include media-tablet {
+    display: none;
+  }
+
+  .menu__link {
+    text-decoration: none;
+    font-family: Roboto-Regular, Verdana, sans-serif;
+    @include font(2rem, 2.3rem);
+    color: $color-text;
+    @extend %transition;
+    &:hover {
+      color: #6776ad;
+    }
+  }
+}

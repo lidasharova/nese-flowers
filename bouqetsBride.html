@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+	<link rel="manifest" href="assets/favicon/site.webmanifest">
+	<!-- favicon -->
+	<link rel="stylesheet" href="css/main.css">
+	<title>Наши цветы</title>
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header__container">
+				<div class="logo">
+					<div class="logo__img"></div>
+				</div>
+				<nav class="nav">
+					<ul class="menu">
+						<li class="menu__li"><a href="index.html#about" class="menu__link">O нас</a></li>
+						<li class="menu__li"><a href="index.html#flowers" class="menu__link">Цветы</a></li>
+						<li class="menu__li"><a href="index.html#comments" class="menu__link">Oтзывы</a></li>
+						<li class="menu__li"><a href="index.html#contacts" class="menu__link">Контакты</a></li>
+					</ul>
+				</nav>
+				<div class="telephone"><a class="telephone__number" href=tel:+905075038510>+90(507) 503-85-10</a></div>
+			</div>
+		</div>
+	</header>
+	<main class="main">
+		<section class="flowers" id="flowers">
+			<div class="container">
+				<div class="flowers__container__cards" id="containerBride">
+					<template class="flowers__card">
+						<img class="flowers__card__img" src="/assets/img/flowers_cards/bouquet-1.png"
+							alt="photo-flowers">
+						<div class="flowers__card__content">
+							<h3 class="flowers__card__name title-mini">Букет невесты из пионовидных роз, эустом и
+								орхидеи</h3>
+							<h1 class="flowers__card__title title-main">Букет невесты №1</h1>
+							<p class="flowers__card__description text-style">Букет невесты из пионовидных роз, эустом и
+								орхидеи - это изысканный и роскошный выбор для свадебного букета. Пионовидные
+								розы привносят в букет роскошь и чувственность, эустомы добавляют нежность и легкость,
+								подчеркивая красоту роз. Орхидеи
+								же придают букету изысканность и элегантность.
+								<br /><br />
+								Этот букет идеально подходит для невест, которые хотят выглядеть великолепно и создать
+								впечатление роскоши и
+								изысканности в свой особенный день.
+							</p>
+							<div class="flowers__card__price-wrapper">
+								<div class="flowers__card__price">1300TL</div>
+								<button class="flowers__card__button button button_unactive open-popup"><a
+										class="button__link" href="#">заказать</a></button>
+							</div>
+						</div>
+					</template>
+
+
+				</div>
+			</div>
+		</section>
+		<!-- pop-up -->
+		<div class="popup__bg">
+			<div class="popup">
+				<div class="close-popup"></div>
+				<div class="popup__container">
+					<div class="popup__img"></div>
+					<div class="popup__content">
+						<div class="popup__title">Свяжитесь с нами для заказа букета</div>
+						<div class="popup__contacts">
+							<div class="popup__contacts__item">
+								<div class="popup__contacts__item-svg popup__svg-phone"></div>
+								<a class="popup__contacts__item-link" href=tel:+905075038510>+90 (507) 503-85-10</a>
+							</div>
+							<div class="popup__contacts__item">
+								<div class="popup__contacts__item-svg popup__svg-mail"></div>
+								<a class="popup__contacts__item-link"
+									href=mailto:neshecofflowers@gmail.com>neşeflowers</a>
+							</div>
+							<div class="popup__contacts__item">
+								<div class="popup__contacts__item-svg popup__svg-tg"></div>
+								<a class="popup__contacts__item-link" href=tel:+905075038510>neşeflowers</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- pop-up -->
+
+	</main>
+
+	<script type="module" src="/dist/main.js"></script>
+</body>
+
+</html>

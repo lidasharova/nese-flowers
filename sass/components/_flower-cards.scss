@@ -1,0 +1,89 @@
+.flowers {
+  background-color: $color-section;
+}
+
+.flowers__container__cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 53px;
+  padding-bottom: 90px;
+  @include media-mobile {
+    padding: 0px;
+  }
+}
+
+.flowers__card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 90px;
+  @include media-laptop {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  @include media-mobile {
+    margin-bottom: 55px;
+  }
+}
+
+.flowers__card__img {
+  margin-right: 35px;
+  width: 538px;
+  height: 735px;
+  @include media-laptop {
+    width: 450px;
+    height: 635px;
+    margin-bottom: 20px;
+  }
+
+  @include media-tablet {
+    width: 438px;
+    height: 535px;
+  }
+
+  @include media-mobile {
+    width: 238px;
+    height: 335px;
+  }
+}
+
+.flowers__card__content {
+  display: flex;
+  flex-direction: column;
+  @include media-laptop {
+    align-items: center;
+  }
+}
+
+.flowers__card__name {
+  margin-bottom: 27px;
+}
+
+.flowers__card__title {
+  margin-bottom: 30px;
+}
+
+.flowers__card__price-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.flowers__card__price {
+  font-family: Roboto-Medium, Verdana, sans-serif;
+  @include font(2.5rem, 2.9rem);
+  color: $color-black;
+  margin-right: 40px;
+}
+
+.flowers__card__description {
+  margin-bottom: 100px;
+  @include media-laptop {
+    margin-bottom: 50px;
+  }
+  @include media-mobile {
+    margin-bottom: 20px;
+  }
+}

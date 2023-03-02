@@ -1,0 +1,153 @@
+.assortment {
+  background-color: $color-background;
+}
+
+.assortment__container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.assortment__content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 80px;
+  @include media-tablet {
+    padding-top: 30px;
+  }
+}
+
+.arrows {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  display: none; //скрытые стрелки слайдера
+}
+.arrow_left {
+  display: inline-block;
+  background-image: url('/assets/img/arrows/Arrow_left.svg');
+  width: 31px;
+  height: 15px;
+  margin-right: 7px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  @extend %transition;
+  &:hover {
+    background-image: url('/assets/img/arrows/Arrow_left_hover.svg');
+    cursor: pointer;
+  }
+}
+
+.arrow_right {
+  background-image: url('/assets/img/arrows/Arrow_right.svg');
+  width: 31px;
+  height: 15px;
+  padding-right: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  @extend %transition;
+  &:hover {
+    background-image: url('/assets/img/arrows/Arrow_right_hover.svg');
+    cursor: pointer;
+  }
+}
+
+.assortment__cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 32px;
+  margin-bottom: 70px;
+  @include media-laptop {
+    justify-content: space-around;
+  }
+}
+
+.assortment__card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: $color-light;
+  border: 30px solid $color-light;
+  @include media-laptop {
+    margin-top: 10px;
+  }
+  @include media-tablet {
+    margin-top: 30px;
+  }
+  @include media-mobile {
+    border: 10px solid $color-light;
+  }
+}
+
+.card__img {
+  width: 324px;
+  height: 386px;
+}
+
+.card__img-one {
+  background-image: url('/assets/img/assortment/floristics.png');
+}
+
+.card__img-two {
+  background-image: url('/assets/img/assortment/bride.png');
+}
+
+.card__img-three {
+  background-image: url('/assets/img/assortment/potted.png');
+}
+
+.card__content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 35px;
+  justify-content: space-between;
+}
+
+.card__content_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card__title {
+  font-family: Ubuntu-Regular, Verdana, sans-serif;
+  @include font(2.2rem, 2.6rem);
+  color: $color-title;
+}
+
+.card__text {
+  font-family: Ubuntu-Light, Verdana, sans-serif;
+  @include font(1.4rem, 1.7rem);
+  color: $color-contacts;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+a.card__content_button {
+  text-decoration: none;
+}
+
+.card__content_button {
+  cursor: pointer;
+  width: 70px;
+  height: 70px;
+  @extend %transition;
+  background-image: url('/assets/img/arrow_button/arrow_button.svg');
+}
+
+a.card__content_button:hover {
+  @extend %transition;
+  background-image: url('/assets/img/arrow_button/arrow_button_hover.svg');
+}
+
+.card__content_button_unactive {
+  @extend %transition;
+  cursor: not-allowed;
+  width: 70px;
+  height: 70px;
+  background-image: url('/assets/img/arrow_button/arrow_button_unactive.svg');
+}

@@ -1,0 +1,38 @@
+.button {
+  border: none;
+  width: 240px;
+  height: 60px;
+  font-family: Roboto-Medium, Verdana, sans-serif;
+  @include font(1.5rem, 1.8rem);
+  letter-spacing: 0.02em;
+  border-radius: 8px;
+  margin-top: 40px;
+  text-transform: uppercase;
+  transition: all 0.3s linear;
+  @include media-mobile {
+    width: 180px;
+    height: 50px;
+    margin-top: 20px;
+  }
+  &:hover {
+    cursor: pointer;
+    background-color: #bdc6e5;
+  }
+}
+
+.button__link {
+  color: $color-black;
+  @include media-laptop {
+    font-size: 12px;
+  }
+}
+
+//стиль неактивной кнопки
+.button_unactive {
+  background-color: $color-primary;
+}
+
+//стиль активной кнопки
+.button_active {
+  background-color: $color-background;
+}

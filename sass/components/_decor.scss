@@ -1,0 +1,39 @@
+.decor {
+  background-color: $color-section;
+}
+
+.decor__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.decor__title {
+  padding-top: 93px;
+  padding-bottom: 30px;
+  @include media-tablet {
+    padding-top: 40px;
+  }
+}
+
+.decor__text {
+  max-width: 540px;
+}
+
+.decor__img {
+  background-image: url('/assets/img/decor/decor.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 600px;
+  height: 355px;
+  margin-top: 80px;
+  margin-left: 60px;
+  @include media-tablet {
+    display: none;
+  }
+}
+
+.decor__button {
+  margin-top: 48px;
+}

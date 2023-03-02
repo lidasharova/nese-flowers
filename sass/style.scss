@@ -1,0 +1,26 @@
+@import 'base/normalize';
+
+//Abstracts
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+@import 'abstracts/placeholders';
+
+//Base
+@import 'base/base';
+
+//Layout
+@import 'layout/navigation';
+@import 'layout/container';
+@import 'layout/header';
+@import 'layout/footer';
+
+//Components
+@import 'components/buttons';
+@import 'components/about';
+@import 'components/assortment';
+@import 'components/service';
+@import 'components/comments';
+@import 'components/decor';
+@import 'components/contacts';
+@import 'components/popup';
+@import 'components/flower-cards';

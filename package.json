@@ -1,0 +1,20 @@
+{
+  "name": "flower-workshop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "style": "sass --watch sass/style.scss css/main.css",
+    "build": "webpack --mode production"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pkg": "^5.8.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "keywords": [],
+  "description": ""
+}

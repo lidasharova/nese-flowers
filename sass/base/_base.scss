@@ -1,0 +1,113 @@
+//fonts
+@font-face {
+  font-family: 'Mulish';
+  src: url('/assets/fonts/Mulish/Mulish-Light.ttf');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/assets/fonts/Montserrat/Montserrat-Regular.ttf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url('/assets/fonts/Roboto/Roboto-Bold.ttf');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url('/assets/fonts/Roboto/Roboto-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('/assets/fonts/Roboto/Roboto-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Roboto-Light';
+  src: url('/assets/fonts/Roboto/Roboto-Light.ttf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('/assets/fonts/Montserrat/Montserrat-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Ubuntu-Regular';
+  src: url('/assets/fonts/Ubuntu/Ubuntu-Light.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Ubuntu-Light';
+  src: url('/assets/fonts/Ubuntu/Ubuntu-Light.ttf');
+  font-weight: 300;
+}
+
+h2 {
+  font-family: Roboto-Regular, Verdana, sans-serif;
+  @include font(4rem, 4.8rem);
+  color: $color-title;
+  @include media-laptop {
+    @include font(3.5rem, 4.5rem);
+  }
+}
+
+.text-style {
+  font-family: Roboto-Light, Verdana, sans-serif;
+  @include font(1.8rem, 2.5rem);
+  color: $color-text;
+}
+
+.title-main {
+  font-family: Mulish, Montserrat, Verdana, serif;
+  @include font(6rem, 6.8rem);
+  color: $color-text;
+  text-align: left;
+  @include media-laptop {
+    @include font(4.5rem, 4.8rem);
+  }
+  @include media-mobile {
+    @include font(3.8rem, 4.5rem);
+  }
+}
+
+.title-mini {
+  font-family: Roboto-Medium, Verdana, sans-serif;
+  @include font(1.5rem, 1.8rem);
+  color: $color-text;
+  text-transform: uppercase;
+  @include media-laptop {
+    @include font(1rem, 1.3rem);
+  }
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Roboto-Regular, Verdana, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  @extend %transition;
+}
