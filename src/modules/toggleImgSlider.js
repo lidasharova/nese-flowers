@@ -11,8 +11,8 @@ function toggleImgSlider() {
     items[i].addEventListener('click', (e) => {
       let slider = e.target;
       toggleClassActiveSlider(slider);
-      link = `url('../assets/img/about/${i + 1}.png')`;
-      img.src = `../assets/img/about/${i + 1}.png`;
+      link = `url('assets/img/about/${i + 1}.png')`;
+      img.src = `assets/img/about/${i + 1}.png`;
       img.onload = () => {
         image.style.backgroundImage = link;
       };
