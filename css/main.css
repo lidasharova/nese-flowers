@@ -586,18 +586,18 @@ a {
   display: inline-block;
   width: 15px;
   height: 15px;
-  background-image: url("/assets/img/slider/item_unactive.svg");
+  background-image: url("assets/img/slider/item_unactive.svg");
 }
 .slider__item_unactive:hover {
   cursor: pointer;
-  background-image: url("/assets/img/slider/item_active.svg");
+  background-image: url("assets/img/slider/item_active.svg");
 }
 
 .slider-active {
   display: inline-block;
   width: 15px;
   height: 15px;
-  background-image: url("/assets/img/slider/item_active.svg");
+  background-image: url("assets/img/slider/item_active.svg");
 }
 .slider-active:hover {
   cursor: pointer;
@@ -606,7 +606,7 @@ a {
 .about__img {
   width: 620px;
   height: 633px;
-  background-image: url("/assets/img/about/2.png");
+  background-image: url("assets/img/about/2.png");
   background-repeat: no-repeat;
   background-size: cover;
   transition: 0.3s;
