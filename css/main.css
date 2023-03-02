@@ -586,18 +586,18 @@ a {
   display: inline-block;
   width: 15px;
   height: 15px;
-  background-image: url("/assets/img/slider/item_unactive.svg");
+  background-image: url("assets/img/slider/item_unactive.svg");
 }
 .slider__item_unactive:hover {
   cursor: pointer;
-  background-image: url("/assets/img/slider/item_active.svg");
+  background-image: url("assets/img/slider/item_active.svg");
 }
 
 .slider-active {
   display: inline-block;
   width: 15px;
   height: 15px;
-  background-image: url("/assets/img/slider/item_active.svg");
+  background-image: url("assets/img/slider/item_active.svg");
 }
 .slider-active:hover {
   cursor: pointer;
@@ -606,7 +606,7 @@ a {
 .about__img {
   width: 620px;
   height: 633px;
-  background-image: url("/assets/img/about/2.png");
+  background-image: url("assets/img/about/2.png");
   background-repeat: no-repeat;
   background-size: cover;
   transition: 0.3s;
@@ -648,7 +648,7 @@ a {
 
 .arrow_left {
   display: inline-block;
-  background-image: url("/assets/img/arrows/Arrow_left.svg");
+  background-image: url("assets/img/arrows/Arrow_left.svg");
   width: 31px;
   height: 15px;
   margin-right: 7px;
@@ -656,12 +656,12 @@ a {
   background-size: cover;
 }
 .arrow_left:hover {
-  background-image: url("/assets/img/arrows/Arrow_left_hover.svg");
+  background-image: url("assets/img/arrows/Arrow_left_hover.svg");
   cursor: pointer;
 }
 
 .arrow_right {
-  background-image: url("/assets/img/arrows/Arrow_right.svg");
+  background-image: url("assets/img/arrows/Arrow_right.svg");
   width: 31px;
   height: 15px;
   padding-right: 30px;
@@ -669,7 +669,7 @@ a {
   background-size: cover;
 }
 .arrow_right:hover {
-  background-image: url("/assets/img/arrows/Arrow_right_hover.svg");
+  background-image: url("assets/img/arrows/Arrow_right_hover.svg");
   cursor: pointer;
 }
 
@@ -716,15 +716,15 @@ a {
 }
 
 .card__img-one {
-  background-image: url("/assets/img/assortment/floristics.png");
+  background-image: url("assets/img/assortment/floristics.png");
 }
 
 .card__img-two {
-  background-image: url("/assets/img/assortment/bride.png");
+  background-image: url("assets/img/assortment/bride.png");
 }
 
 .card__img-three {
-  background-image: url("/assets/img/assortment/potted.png");
+  background-image: url("assets/img/assortment/potted.png");
 }
 
 .card__content {
@@ -765,18 +765,18 @@ a.card__content_button {
   cursor: pointer;
   width: 70px;
   height: 70px;
-  background-image: url("/assets/img/arrow_button/arrow_button.svg");
+  background-image: url("assets/img/arrow_button/arrow_button.svg");
 }
 
 a.card__content_button:hover {
-  background-image: url("/assets/img/arrow_button/arrow_button_hover.svg");
+  background-image: url("assets/img/arrow_button/arrow_button_hover.svg");
 }
 
 .card__content_button_unactive {
   cursor: not-allowed;
   width: 70px;
   height: 70px;
-  background-image: url("/assets/img/arrow_button/arrow_button_unactive.svg");
+  background-image: url("assets/img/arrow_button/arrow_button_unactive.svg");
 }
 
 .service {
@@ -800,7 +800,7 @@ a.card__content_button:hover {
   font-size: 1.8rem;
   line-height: 3.5rem;
   color: #323232;
-  list-style-image: url("/assets/img/service/marker.svg");
+  list-style-image: url("assets/img/service/marker.svg");
 }
 @media (max-width: 414px) {
   .service__description {
@@ -821,7 +821,7 @@ a.card__content_button:hover {
 .service__img {
   width: 599px;
   height: 355px;
-  background-image: url("/assets/img/service/service.png");
+  background-image: url("assets/img/service/service.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -868,7 +868,7 @@ a.card__content_button:hover {
 .photo_Veronica {
   width: 176px;
   height: 212px;
-  background-image: url("/assets/img/comments/Veronica.png");
+  background-image: url("assets/img/comments/Veronica.png");
 }
 @media (max-width: 768px) {
   .photo_Veronica {
@@ -879,7 +879,7 @@ a.card__content_button:hover {
 .photo_Danil {
   width: 176px;
   height: 212px;
-  background-image: url("/assets/img/comments/Danil.png");
+  background-image: url("assets/img/comments/Danil.png");
 }
 @media (max-width: 768px) {
   .photo_Danil {
@@ -890,7 +890,7 @@ a.card__content_button:hover {
 .photo_Ivan {
   width: 176px;
   height: 212px;
-  background-image: url("/assets/img/comments/Ivan.png");
+  background-image: url("assets/img/comments/Ivan.png");
 }
 @media (max-width: 768px) {
   .photo_Ivan {
@@ -901,7 +901,7 @@ a.card__content_button:hover {
 .photo_Alina {
   width: 176px;
   height: 212px;
-  background-image: url("/assets/img/comments/Alina.png");
+  background-image: url("assets/img/comments/Alina.png");
 }
 @media (max-width: 768px) {
   .photo_Alina {
@@ -947,7 +947,7 @@ a.card__content_button:hover {
 }
 
 .decor__img {
-  background-image: url("/assets/img/decor/decor.png");
+  background-image: url("assets/img/decor/decor.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 600px;
@@ -1092,15 +1092,15 @@ a.messenger {
 }
 
 .inst {
-  background-image: url("/assets/img/messengers/inst.svg");
+  background-image: url("assets/img/messengers/inst.svg");
 }
 
 .wa {
-  background-image: url("/assets/img/messengers/wa.svg");
+  background-image: url("assets/img/messengers/wa.svg");
 }
 
 .tg {
-  background-image: url("/assets/img/messengers/tg.svg");
+  background-image: url("assets/img/messengers/tg.svg");
 }
 
 .popup__bg {
@@ -1152,7 +1152,7 @@ a.messenger {
 }
 
 .close-popup {
-  background-image: url("/assets/img/popup/close-popup.svg");
+  background-image: url("assets/img/popup/close-popup.svg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 30px;
@@ -1196,7 +1196,7 @@ a.messenger {
 }
 
 .popup__img {
-  background-image: url("/assets/img/popup/popup.png");
+  background-image: url("assets/img/popup/popup.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 447px;
@@ -1307,15 +1307,15 @@ a.messenger {
 }
 
 .popup__svg-phone {
-  background-image: url("/assets/img/popup/phone.svg");
+  background-image: url("assets/img/popup/phone.svg");
 }
 
 .popup__svg-mail {
-  background-image: url("/assets/img/popup/mail.svg");
+  background-image: url("assets/img/popup/mail.svg");
 }
 
 .popup__svg-tg {
-  background-image: url("/assets/img/popup/tg.svg");
+  background-image: url("assets/img/popup/tg.svg");
   margin-top: 7px;
 }
 
