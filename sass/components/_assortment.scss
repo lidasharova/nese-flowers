@@ -26,7 +26,7 @@
 }
 .arrow_left {
   display: inline-block;
-  background-image: url('/assets/img/arrows/Arrow_left.svg');
+  background-image: url('../assets/img/arrows/Arrow_left.svg');
   width: 31px;
   height: 15px;
   margin-right: 7px;
@@ -34,13 +34,13 @@
   background-size: cover;
   @extend %transition;
   &:hover {
-    background-image: url('/assets/img/arrows/Arrow_left_hover.svg');
+    background-image: url('../assets/img/arrows/Arrow_left_hover.svg');
     cursor: pointer;
   }
 }
 
 .arrow_right {
-  background-image: url('/assets/img/arrows/Arrow_right.svg');
+  background-image: url('../assets/img/arrows/Arrow_right.svg');
   width: 31px;
   height: 15px;
   padding-right: 30px;
@@ -48,7 +48,7 @@
   background-size: cover;
   @extend %transition;
   &:hover {
-    background-image: url('/assets/img/arrows/Arrow_right_hover.svg');
+    background-image: url('../assets/img/arrows/Arrow_right_hover.svg');
     cursor: pointer;
   }
 }
@@ -88,15 +88,15 @@
 }
 
 .card__img-one {
-  background-image: url('/assets/img/assortment/floristics.png');
+  background-image: url('../assets/img/assortment/floristics.png');
 }
 
 .card__img-two {
-  background-image: url('/assets/img/assortment/bride.png');
+  background-image: url('../assets/img/assortment/bride.png');
 }
 
 .card__img-three {
-  background-image: url('/assets/img/assortment/potted.png');
+  background-image: url('../assets/img/assortment/potted.png');
 }
 
 .card__content {
@@ -136,12 +136,12 @@ a.card__content_button {
   width: 70px;
   height: 70px;
   @extend %transition;
-  background-image: url('/assets/img/arrow_button/arrow_button.svg');
+  background-image: url('../assets/img/arrow_button/arrow_button.svg');
 }
 
 a.card__content_button:hover {
   @extend %transition;
-  background-image: url('/assets/img/arrow_button/arrow_button_hover.svg');
+  background-image: url('../assets/img/arrow_button/arrow_button_hover.svg');
 }
 
 .card__content_button_unactive {
@@ -149,5 +149,5 @@ a.card__content_button:hover {
   cursor: not-allowed;
   width: 70px;
   height: 70px;
-  background-image: url('/assets/img/arrow_button/arrow_button_unactive.svg');
+  background-image: url('../assets/img/arrow_button/arrow_button_unactive.svg');
 }
